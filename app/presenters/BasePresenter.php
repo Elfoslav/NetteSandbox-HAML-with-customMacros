@@ -5,9 +5,9 @@
  */
 abstract class BasePresenter extends Nette\Application\UI\Presenter
 {
-	public function templatePrepareFilters($template)
-	{
-		$template->registerFilter(new Nette\Templating\Filters\Haml);
-		$template->registerFilter(new Nette\Latte\Engine);
-	}
+	//public function templatePrepareFilters($template)
+	//{
+	//	$template->registerFilter(new Nette\Templating\Filters\Haml);
+	//	$template->registerFilter(new Nette\Latte\Engine);
+	//}
 }
